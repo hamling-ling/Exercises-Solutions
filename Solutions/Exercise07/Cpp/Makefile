@@ -16,7 +16,7 @@ LIBS = -lm -lOpenCL -fopenmp
 
 COMMON_DIR = ../../Cpp_common
 
-INC = -I $(COMMON_DIR)
+INC = -I $(COMMON_DIR) -I /usr/include
 
 MMUL_OBJS = matmul.o matrix_lib.o wtime.o
 EXEC = mult
